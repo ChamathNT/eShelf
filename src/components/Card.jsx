@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
+import BookDetails from './BookDetails'
 
 const Card = ({ book }) => {
+    const[show, setShow] = useState(false);
+    const[bookItem,setItem] = useState();
     console.log(book)
+
+
     return (
         <>
             {
@@ -12,7 +17,7 @@ const Card = ({ book }) => {
 
                         return (
                             <>
-                                <div className='card'>
+                                <div className='card' onClick={() =>{setShow(true);setItem(item)}}>
                                     <img src={thumbnail} alt="" />
                                     <div className='bottom'>
                                         <h3 className='title'>{item.volumeInfo.title}</h3>
@@ -21,6 +26,7 @@ const Card = ({ book }) => {
                                     </div>
 
                                 </div>
+                                <BookDetails show ={show} item={bookItem} onClose={()=> setShow(false)}/>
                             </>
 
                         )
