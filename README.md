@@ -40,13 +40,14 @@ Clone down the repository and switch to the eShelf directory.
 
 1. Install modules:
 switch to eShelf and install the npm packages using below command
-'npm install'  
+```bash
+npm install  
 
-2. Start development servers:
+3. Start development servers:
 Start frontend server by typing below command
-'npm run dev'
+npm run dev
 
-4. Visit the app:
+5. Visit the app:
 http://localhost:5173/ 
 
 ## Screens
