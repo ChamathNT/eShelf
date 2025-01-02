@@ -40,11 +40,11 @@ Clone down the repository and switch to the eShelf directory.
 
 1. Install modules:
 switch to eShelf and install the npm packages using below command
-`npm install`  
+'npm install'  
 
 2. Start development servers:
 Start frontend server by typing below command
-`npm run dev`
+'npm run dev'
 
 4. Visit the app:
 http://localhost:5173/ 
@@ -53,8 +53,6 @@ http://localhost:5173/
 
 
 ![Screenshot_1](https://github.com/ChamathNT/eShelf/blob/main/public/Screenshot%201.png)
-
-![Screenshot_2](https://github.com/ChamathNT/eShelf/blob/main/public/Screenshot%202.png)
 
 ![Screenshot_3](https://github.com/ChamathNT/eShelf/blob/main/public/Screenshot%203.png)
 
