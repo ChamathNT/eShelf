@@ -1,4 +1,4 @@
-# eSHELF Web App
+# eSHELF Web App 📚
 
 eSHELF is a web application built with React that allows users to browse and explore books using the Google Books API. It features a responsive and interactive user interface, enabling users to search for books by title. The application displays a list of books with essential details such as the title, author, and cover image, providing a seamless and dynamic browsing experience. Designed for optimal performance across devices, eSHELF leverages React Hooks and CSS for a polished frontend. The app is an excellent choice for book enthusiasts and developers alike.
 
